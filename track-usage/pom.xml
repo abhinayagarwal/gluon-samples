@@ -22,19 +22,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>jakarta.json</artifactId>
-            <version>1.1.5</version>
-            <classifier>module</classifier>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish.jaxb</groupId>
-            <artifactId>jaxb-runtime</artifactId>
-            <version>2.3.1</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>${javafx.version}</version>
@@ -48,11 +35,6 @@
             <groupId>com.gluonhq</groupId>
             <artifactId>charm-glisten</artifactId>
             <version>${charm.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.gluonhq.attach</groupId>
-            <artifactId>util</artifactId>
-            <version>${attach.version}</version>
         </dependency>
         <dependency>
             <groupId>com.gluonhq.attach</groupId>
@@ -82,6 +64,23 @@
             <groupId>com.gluonhq.attach</groupId>
             <artifactId>device</artifactId>
             <version>${attach.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gluonhq.attach</groupId>
+            <artifactId>util</artifactId>
+            <version>${attach.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>jakarta.json</artifactId>
+            <version>1.1.5</version>
+            <classifier>module</classifier>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>2.3.1</version>
             <scope>runtime</scope>
         </dependency>
     </dependencies>
