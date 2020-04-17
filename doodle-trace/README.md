@@ -2,9 +2,15 @@
 
 A JavaFX application that traces a user-drawn pattern and draws it back.
 
-## Instructions
+## Documentation
 
-Please follow the pre-requisites as stated [here](https://github.com/gluonhq/client-samples/#build-and-run-the-samples).
+[TODO: Update link]: #
+Read how to create this sample step by step here.
+
+## Quick Instructions
+
+We use [Gluon Client](https://docs.gluonhq.com/client/) to build a native image for platforms including desktop, android and iOS.
+Please follow the Gluon Client prerequisite as stated [here](https://github.com/gluonhq/client-samples/#build-and-run-the-samples).
 
 ### Desktop
 
@@ -51,7 +57,3 @@ Install and run the native image on a connected iOS device:
 Create an IPA file (for submission to Test Flight or App Store):
 
     mvn client:package -Pios
-
-## Documentation
-
-Read how to create this sample step by step here
